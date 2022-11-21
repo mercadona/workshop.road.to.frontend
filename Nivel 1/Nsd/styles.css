@@ -7,3 +7,31 @@ body {
 hsla(0,0%,90%,.3)
 #017aff
 */
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(228, 227, 227);
+  }
+  .tittle {
+    display: flex;
+    justify-content: space-between;
+    background: greenyellow;
+  }
+  
+  .box-input {
+    display: flex;
+    justify-content: center;
+    background: darkcyan;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+  }
+  
+  
+  
