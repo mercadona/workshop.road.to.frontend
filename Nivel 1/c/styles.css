@@ -1,0 +1,23 @@
+.outer-box {
+  background-color: blue;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.row-1 {
+  display:flex;
+  background-color:red;
+  justify-content:space-between;
+}
+
+.row-2 {
+  display:flex;
+  background-color:green;
+  justify-content:center;
+}
+
+.lbl-tlf-input {
+  background-color:grey;
+}

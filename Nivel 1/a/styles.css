@@ -1,0 +1,14 @@
+.outer-box {
+  height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.green-box {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
