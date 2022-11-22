@@ -63,11 +63,12 @@ footer {
 .item {
     background: #2f8c5a;
     flex-grow: 1;
-    box-sizing: border-box;
-    padding: 2rem 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .empty-item {
     flex-grow: 1;
+    color: transparent;
 }
