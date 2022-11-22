@@ -1,0 +1,40 @@
+.parent_box {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  font-weight: bold;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone_container{
+  gap: 5px;
+}
+
+.phone_input{
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: blue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: None;
+}
