@@ -78,6 +78,7 @@ footer {
 
 .item {
     background: #2f8c5a;
+    box-shadow: inset 0 -4px 5px 2px #21663f;
     flex-grow: 1;
     display: flex;
     justify-content: center;
