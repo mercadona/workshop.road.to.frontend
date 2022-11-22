@@ -10,6 +10,7 @@ body {
     gap: 1rem;
     color: white;
     font-weight: bold;
+    font-family: system-ui, sans-serif;
 }
 
 header {
