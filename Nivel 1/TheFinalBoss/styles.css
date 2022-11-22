@@ -25,7 +25,7 @@ header {
 main {
     background: #3cb371;
     box-shadow: inset 0 -4px 5px 2px #21673f;
-    flex-grow: 3;
+    flex-grow: 7;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
