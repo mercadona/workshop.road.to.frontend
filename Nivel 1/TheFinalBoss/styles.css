@@ -63,6 +63,11 @@ footer {
 .item {
     background: #2f8c5a;
     flex-grow: 1;
+    box-sizing: border-box;
     padding: 2rem 1rem;
     text-align: center;
+}
+
+.empty-item {
+    flex-grow: 1;
 }
