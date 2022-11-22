@@ -73,3 +73,7 @@ footer {
     flex-grow: 1;
     color: transparent;
 }
+
+.rounded {
+    border-radius: 0.5rem;
+}
