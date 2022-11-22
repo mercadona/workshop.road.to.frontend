@@ -55,12 +55,13 @@ footer {
 }
 
 .item-container {
-    flex-grow: 3;
+    flex-grow: 7;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    margin: 0rem;
 }
 
 .item-row {
@@ -71,6 +72,8 @@ footer {
 
 .title {
     flex-grow: 1;
+    display: flex;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
 }
 
 .item {
