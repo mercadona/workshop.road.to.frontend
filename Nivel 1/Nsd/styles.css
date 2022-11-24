@@ -1,9 +1,51 @@
 body {
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-/* 
-hsla(0,0%,90%,.3)
-#017aff
-*/
+header {
+    height: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding: 1rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem 0.6rem;
+    border-radius: 5px;
+    border: None;
+}
+
+button:first-child {
+    color: blue;
+}
+
+.arrow {
+    font-size: 1rem;
+    font-weight: bold;
+}
