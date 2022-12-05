@@ -126,3 +126,21 @@ const arrayDePalabras = (word, times) => {
 
     return words
 }
+
+
+// Objetos
+
+const miPrimerObjeto = objectWithName => objectWithName.nombre
+
+const sumaDeCosasConObjetos = operands => operands.numero1 + operands.numero2
+
+const masObjetos = (person, otherPerson) => person.nombre == otherPerson.nombre
+
+const objetosYTextos = person => person.nombre.length > 5
+
+const arraysYObjetos = results => results[0].total
+
+const arrayConObjetos = operands => {
+    const sum = (total, operand) => total + operand.numero
+    return operands.reduce(sum, initialValue=0)
+}
