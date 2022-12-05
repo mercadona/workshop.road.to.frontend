@@ -63,3 +63,37 @@ function reciboPeroQue(number) {
 function nadaDeNada(text) {
     `${text} Dani`
 }
+
+
+// Arrays
+
+var devuelveArray = () => [1]
+
+var arrayConCosas = () => ['Perro', 5]
+
+var seleccionArray = (array) => array[1]
+
+var longitudDelArray = (array) => array.length
+
+var llenamosArray = (array) => {
+    array.push(4)
+    return array
+}
+
+var vaciamosArray = (array) => {
+    array.pop()
+    return array
+}
+
+var seleccionPrimerArray = (array) => array[0]
+
+var ultimoDelArray = (array) => array[array.length - 1]
+
+var elElementoSeleccionado = (array, itemIndex) => array[itemIndex]
+
+var otroElementoSeleccionado = (array, index) => array[index + 1]
+
+var elPenultimo = (array) => {
+    penultimateIndex = array.length - 2
+    return array[penultimateIndex]
+}
