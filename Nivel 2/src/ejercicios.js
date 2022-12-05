@@ -212,3 +212,15 @@ const analyzeTypeOfElement = element => {
         return element.nombre
     }
 }
+
+
+const findLongestWord = words => {
+    if (words.length == 0) {
+        return null
+    }
+
+    const getLongest = (word, otherWord) => word.length >= otherWord.length ? word : otherWord
+    return words.reduce(getLongest)
+}
+
+const shuffle = array => array
