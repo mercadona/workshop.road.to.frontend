@@ -97,3 +97,32 @@ var elPenultimo = (array) => {
     penultimateIndex = array.length - 2
     return array[penultimateIndex]
 }
+
+
+// Bucles y Arrays
+
+var arrayDeNumeros = (numberOfElements) => {
+    var newArray = []
+    for (let index = 1; index <= numberOfElements; index++) {
+        newArray.push(index)
+    }
+
+    return newArray
+}
+
+var sumaDeArrayDeNumeros = (array) => {
+    var sum = (total, element) => total + element
+
+    return array.reduce(sum)
+}
+
+var restantoDelTotal = (total, elements) => total - sumaDeArrayDeNumeros(elements)
+
+var arrayDePalabras = (word, times) => {
+    let words = []
+    for (let index = 0; index < times; index++) {
+        words.push(word)
+    }
+
+    return words
+}
