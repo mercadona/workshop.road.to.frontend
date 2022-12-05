@@ -144,3 +144,22 @@ const arrayConObjetos = operands => {
     const sum = (total, operand) => total + operand.numero
     return operands.reduce(sum, initialValue=0)
 }
+
+
+// Par o impar
+
+const gestionandoNumeros = number => {
+    if (number == 0) {
+        return 'Es cero, no quiero gestionar esto'
+    }
+
+    if (number < 0) {
+        return 'Es negativo, no me interesa'
+    }
+
+    if (number % 2 == 0) {
+        return 'Es par'
+    }
+
+    return 'Es impar'
+}
