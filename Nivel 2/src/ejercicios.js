@@ -22,9 +22,6 @@ function elNumerito() {
     return 5
 }
 
-// Crea una función que se llame mayorQueCinco.
-// Esta funcion recibira un parametro y devolvera true si el numero recibido es mayor que cinco 
-// o false si es menor
 function mayorQueCinco(x) {
     return x > 5
 }
@@ -33,9 +30,6 @@ function menorQueDiez(x) {
     return x < 10
 }
 
-// Crea una funcion que se llame comprobarTexto
-// Recibira un parametro que sera el texto.
-// Devolvera true si el texto tiene mas de 50 caracteres o false si tiene menos de 50 caracteres
 function comprobarTexto(text) {
     return text.length > 50
 }
