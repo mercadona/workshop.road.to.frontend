@@ -67,33 +67,33 @@ function nadaDeNada(text) {
 
 // Arrays
 
-var devuelveArray = () => [1]
+const devuelveArray = () => [1]
 
-var arrayConCosas = () => ['Perro', 5]
+const arrayConCosas = () => ['Perro', 5]
 
-var seleccionArray = (array) => array[1]
+const seleccionArray = (array) => array[1]
 
-var longitudDelArray = (array) => array.length
+const longitudDelArray = (array) => array.length
 
-var llenamosArray = (array) => {
+const llenamosArray = (array) => {
     array.push(4)
     return array
 }
 
-var vaciamosArray = (array) => {
+const vaciamosArray = (array) => {
     array.pop()
     return array
 }
 
-var seleccionPrimerArray = (array) => array[0]
+const seleccionPrimerArray = (array) => array[0]
 
-var ultimoDelArray = (array) => array[array.length - 1]
+const ultimoDelArray = (array) => array[array.length - 1]
 
-var elElementoSeleccionado = (array, itemIndex) => array[itemIndex]
+const elElementoSeleccionado = (array, itemIndex) => array[itemIndex]
 
-var otroElementoSeleccionado = (array, index) => array[index + 1]
+const otroElementoSeleccionado = (array, index) => array[index + 1]
 
-var elPenultimo = (array) => {
+const elPenultimo = (array) => {
     penultimateIndex = array.length - 2
     return array[penultimateIndex]
 }
@@ -101,8 +101,8 @@ var elPenultimo = (array) => {
 
 // Bucles y Arrays
 
-var arrayDeNumeros = (numberOfElements) => {
-    var newArray = []
+const arrayDeNumeros = (numberOfElements) => {
+    const newArray = []
     for (let index = 1; index <= numberOfElements; index++) {
         newArray.push(index)
     }
@@ -110,15 +110,15 @@ var arrayDeNumeros = (numberOfElements) => {
     return newArray
 }
 
-var sumaDeArrayDeNumeros = (array) => {
-    var sum = (total, element) => total + element
+const sumaDeArrayDeNumeros = (array) => {
+    const sum = (total, element) => total + element
 
     return array.reduce(sum)
 }
 
-var restantoDelTotal = (total, elements) => total - sumaDeArrayDeNumeros(elements)
+const restantoDelTotal = (total, elements) => total - sumaDeArrayDeNumeros(elements)
 
-var arrayDePalabras = (word, times) => {
+const arrayDePalabras = (word, times) => {
     let words = []
     for (let index = 0; index < times; index++) {
         words.push(word)
