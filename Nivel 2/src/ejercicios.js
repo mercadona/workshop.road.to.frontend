@@ -163,3 +163,32 @@ const gestionandoNumeros = number => {
 
     return 'Es impar'
 }
+
+
+// El mas pequeño
+
+const elMasChiquito = words => {
+
+    if (areThereTooManyWords(words)) {
+        return 'Demasiado largo, paso de buscar'
+    }
+
+    if (isWildcardInWords(words)) {
+        return 'Tenemos comodin'
+    }
+
+    const getShortest = (word, otherWord) => word.length < otherWord.length ? word : otherWord
+    return words.reduce(getShortest)
+}
+
+const isWildcardInWords = words => {
+    for (const word of words) {
+        if (word == 'Comodin') {
+            return true
+        }
+    }
+
+    return false
+}
+
+const areThereTooManyWords = words => words.length > 5
