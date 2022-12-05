@@ -57,8 +57,8 @@ describe('Ejercicios', () => {
     expect(result).toBe(true)
   })
   it('función comprobandoDosParametros que recibira 2 parametros que seran 2 numeros, devuelve false si ambos son menores que 10', () => {
-    const result = comprobandoDosParametros(12, 14)
-    expect(result).toBe(true)
+    const result = comprobandoDosParametros(7, 3)
+    expect(result).toBe(false)
   })
   it('función comprobandoTextos, devuelve "Tienen la misma longitud" si ambos textos tienen la misma longitud', () => {
     const result = comprobandoTextos('LOL', 'LOL')
