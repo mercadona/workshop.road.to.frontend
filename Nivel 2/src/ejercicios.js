@@ -1,3 +1,23 @@
+function miPrimeraFuncion() {
+    return 'Esta es mi primera funcion'
+}
+
+function esVerdadero() {
+    return true
+}
+
+function noEsVerdadero() {
+    return false
+}
+
+function malditoArray() {
+    return []
+}
+
+function malditoObjeto() {
+    return {}
+}
+
 // Crea una función que se llame mayorQueCinco.
 // Esta funcion recibira un parametro y devolvera true si el numero recibido es mayor que cinco 
 // o false si es menor
