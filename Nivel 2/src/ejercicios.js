@@ -224,3 +224,8 @@ const findLongestWord = words => {
 }
 
 const shuffle = array => array
+
+
+// Calculate the sum of array of numbers
+
+const sumNumbers = numbers => numbers.reduce((number, otherNumber) => number + otherNumber, initialValue=0)
