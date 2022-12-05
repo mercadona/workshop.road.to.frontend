@@ -169,6 +169,10 @@ const gestionandoNumeros = number => {
 
 const elMasChiquito = words => {
 
+    if (isThereOnlyOneWord(words)) {
+        return analyzeTypeOfElement(words[0])
+    }
+
     if (areThereTooManyWords(words)) {
         return 'Demasiado largo, paso de buscar'
     }
@@ -192,3 +196,19 @@ const isWildcardInWords = words => {
 }
 
 const areThereTooManyWords = words => words.length > 5
+
+const isThereOnlyOneWord = words => words.length == 1
+
+const analyzeTypeOfElement = element => {
+    if (typeof element == 'string') {
+        return element.length
+    }
+
+    if (typeof element == 'number') {
+        return element
+    }
+
+    if (typeof element == 'object') {
+        return element.nombre
+    }
+}
