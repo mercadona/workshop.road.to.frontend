@@ -1,20 +1,83 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: black;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font: 0.7em sans-serif;
+    font-weight: bold;
 }
 
 
 .lienzo {
     width: 400px;
     height: 400px;
+    padding: 20px;
     border: 1px solid black;
-    background: burlywood;
+    background: white;
     box-sizing: border-box;
-    padding: 10% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
+
+.banner {
+    background: blue;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-basis: 4%;
+    align-items: center;
+}
+
+.container-content {
+    display: flex;
+    flex-grow: 10;
+    gap: 10px;
+}
+
+.container-main {
+    background: lightgreen;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main {
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.container-items{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    background: green;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    background: red;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    flex-basis: 40%;
+}

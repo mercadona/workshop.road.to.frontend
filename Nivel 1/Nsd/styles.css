@@ -1,6 +1,65 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: gainsboro;
+    font: 1.2em sans-serif;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font: 1.2em sans-serif;
+}
+
+
+button {
+    height: 80px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    font: 1.2em sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-title {
+    width: 400px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-enabled {
+    color: blue;
+}
+
+.button-disabled {
+    color: grey;
 }
 
 /* 

@@ -13,4 +13,20 @@ body {
     width: 400px;
     height: 400px;
     border: 1px solid black;
+    background: burlywood;
+    display: flex;
+    gap: 5px;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: flex;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: flex;
 }

@@ -15,4 +15,15 @@ body {
     border: 1px solid black;
     background: burlywood;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jefe {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

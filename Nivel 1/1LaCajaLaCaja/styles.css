@@ -17,3 +17,9 @@ body {
     display: flex;
     gap: 5px;
 }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
